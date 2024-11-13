@@ -8,7 +8,7 @@ export default defineEventHandler(async (event) => {
 
   try {
     const data = await resend.emails.send({
-      from: "paulfitz99@gmail.com",
+      from: "paulfitz99@action-sports-ranking.netlify.app",
       to: ["paulfitz99@gmail.com"],
       subject: `Message from ${formData.name}`,
       html: `
