@@ -8,8 +8,17 @@ const form = reactive({
   message: "",
 });
 
-function handleSubmit() {
-  console.log({ form });
+function contactForm() {
+  $fetch("/api/mail", {
+    method: "POST",
+    body: form,
+  })
+    .then((response) => {
+      console.log("Response from API:", response);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
 }
 </script>
 
@@ -88,7 +97,7 @@ function handleSubmit() {
         </div>
 
         <button
-          type="submit"
+          @click="contactForm"
           class="p-8 bg-[#1EBD70] hover:opacity-90 text-white font-semibold py-2 rounded-md transition duration-200"
         >
           Send Message
