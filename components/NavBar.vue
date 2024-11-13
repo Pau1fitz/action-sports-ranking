@@ -24,7 +24,7 @@ watch(
     <div
       class="flex items-center justify-between max-w-7xl md:mx-auto flex-row"
     >
-      <NuxtImg src="../public/logo.png" alt="logo" class="w-64" />
+      <img src="../public/logo.png" alt="logo" class="w-64" />
       <!-- nav for bigger screens -->
       <nav class="hidden lg:flex gap-6">
         <NavLink to="/" label="Rankings" :currentPath="route.path" />
