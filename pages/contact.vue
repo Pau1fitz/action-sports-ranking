@@ -8,17 +8,16 @@ const form = reactive({
   message: "",
 });
 
-function contactForm() {
-  $fetch("/api/mail", {
-    method: "POST",
-    body: form,
-  })
-    .then((response) => {
-      console.log("Response from API:", response);
-    })
-    .catch((error) => {
-      console.error("Error:", error);
+async function contactForm() {
+  try {
+    await $fetch("/api/mail", {
+      method: "POST",
+      body: form,
     });
+    alert(JSON.stringify(form));
+  } catch (error) {
+    console.error("Error:", error);
+  }
 }
 </script>
 
