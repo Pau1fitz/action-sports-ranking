@@ -15,7 +15,7 @@ const props = defineProps({
       'text-[#1EBD70]': currentPath === to,
       'text-[#333] hover:text-[#1EBD70]': currentPath !== to,
     }"
-    class="block font-bold text-[15px]"
+    class="text-sm font-semibold leading-6 hover:text-accent"
   >
     {{ label }}
   </NuxtLink>

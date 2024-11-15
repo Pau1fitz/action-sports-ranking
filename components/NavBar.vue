@@ -29,6 +29,11 @@ watch(
       <nav class="hidden lg:flex gap-6">
         <NavLink to="/" label="Rankings" :currentPath="route.path" />
         <NavLink to="/contact" label="Contact" :currentPath="route.path" />
+        <NavLink
+          to="/marketing"
+          label="Vision Meets Action"
+          :currentPath="route.path"
+        />
       </nav>
     </div>
 
@@ -40,7 +45,7 @@ watch(
       <svg
         v-if="!isMenuOpen"
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6 text-gray-800"
+        class="h-6 w-6 text-[#001122]"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -55,7 +60,7 @@ watch(
       <svg
         v-else
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6 text-gray-800"
+        class="h-6 w-6 text-[#001122]"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -80,7 +85,7 @@ watch(
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6 text-gray-800"
+          class="h-6 w-6 text-[#001122]"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
