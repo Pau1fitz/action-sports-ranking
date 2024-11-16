@@ -6,6 +6,5 @@ import "../assets/style.css";
   <div>
     <NavBar class="relative z-20" />
     <NuxtPage class="relative z-10" />
-    <Background />
   </div>
 </template>

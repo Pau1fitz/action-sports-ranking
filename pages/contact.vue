@@ -99,7 +99,7 @@ async function contactForm() {
 
         <button
           @click="contactForm"
-          class="p-8 bg-[#1EBD70] hover:opacity-90 text-white font-semibold py-2 rounded-md transition duration-200 shadow-md"
+          class="p-8 bg-[#001122] hover:opacity-90 text-white font-semibold py-2 rounded-md transition duration-200 shadow-md"
         >
           Send Message
         </button>

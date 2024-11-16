@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import snowboardingImage from "../assets/snowboarding.jpg";
-import skateboardingImage from "../assets/skateboarding-3.jpg";
-import skateboardingImageTwo from "../assets/skateboarding-2.jpg";
-import surfingImage from "../assets/surfing.jpg";
-import surfingImageTwo from "../assets/surfing-2.jpeg";
+import snowboardingImage from "../assets/snowboarding-2.jpg";
+import skateboardingImage from "../assets/skateboarding-5.jpg";
+import skateboardingImageTwo from "../assets/skateboarding-4.jpg";
+import surfingImage from "../assets/surfing-3.jpg";
+import surfingImageTwo from "../assets/surfing-4.jpg";
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import surfingImageTwo from "../assets/surfing-2.jpeg";
       <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold text-[#001122]">
         Get All The Information You Need
       </h1>
-      <p class="text-sm text-muted">
+      <p class="text-sm text-neutral-500">
         Whether you're looking for athlete information, missing results, or
         detailed rankings for your organisation, we are here to help. Choose the
         relevant section below to find the right contact or resource for your
@@ -33,82 +33,97 @@ import surfingImageTwo from "../assets/surfing-2.jpeg";
   <div
     class="flex flex-col lg:flex-row items-start justify-between py-10 px-5 lg:px-20 gap-10 max-w-7xl mx-auto"
   >
-    <div class="flex flex-col lg:w-1/4 space-y-5 self-start self-stretch">
-      <h2 class="text-4xl font-bold text-[#001122] text-center">
-        Find Athlete Info
-      </h2>
-      <div
-        class="w-full bg-cover bg-center h-72 rounded-xl"
-        :style="{ backgroundImage: `url('${surfingImage}')` }"
-      ></div>
-      <p class="text-sm text-muted">
-        You need specific athlete details, such as profiles stats or performance
-        data? Reach out for more info.
-      </p>
-      <a
-        href="mailto:athlete@wyldata.com"
-        class="p-8 bg-[#1EBD70] hover:opacity-90 text-white font-semibold py-2 rounded-md transition duration-200 w-fit shadow-md"
-      >
-        Get Athlete Info
-      </a>
+    <div class="flex flex-col lg:w-1/4 space-y-4 self-start self-stretch">
+      <h2 class="text-2xl font-bold text-[#001122]">Find Athlete Info</h2>
+      <div class="w-full bg-white shadow-md rounded-xl overflow-hidden">
+        <div
+          class="w-full bg-cover bg-center h-48"
+          :style="{ backgroundImage: `url('${surfingImageTwo}')` }"
+        ></div>
+
+        <div class="p-4">
+          <p class="text-sm text-neutral-500 mb-4">
+            You need specific athlete details, such as profiles stats or
+            performance data? Reach out for more info.
+          </p>
+          <a
+            href="mailto:athlete@wyldata.com"
+            class="block bg-[#001122] hover:opacity-90 text-white font-semibold py-2 px-4 rounded-md text-center transition duration-200 w-fit shadow-md"
+          >
+            Get Athlete Info
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="flex flex-col lg:w-1/4 space-y-5 self-start self-stretch">
-      <h2 class="text-4xl font-bold text-[#001122]">FLYP Fantasy</h2>
-      <div
-        class="w-full bg-cover bg-center h-72 rounded-xl"
-        :style="{ backgroundImage: `url('${skateboardingImage}')` }"
-      ></div>
+    <div class="flex flex-col lg:w-1/4 space-y-4 self-start self-stretch">
+      <h2 class="text-2xl font-bold text-[#001122]">FLYP Fantasy</h2>
+      <div class="w-full bg-white shadow-md rounded-xl overflow-hidden">
+        <div
+          class="w-full bg-cover bg-center h-48"
+          :style="{ backgroundImage: `url('${skateboardingImage}')` }"
+        ></div>
 
-      <p class="text-sm text-muted]">
-        Fantasy has arrived to Action Sports. Check out FLYP Fantasy to see how
-        you can get involved.
-      </p>
-      <a
-        href="https://flypgame.com/app/games"
-        class="p-8 bg-[#1EBD70] hover:opacity-90 text-white font-semibold py-2 rounded-md transition duration-200 w-fit shadow-md"
-        target="_blank"
-      >
-        Join FLYP
-      </a>
+        <div class="p-4">
+          <p class="text-sm text-neutral-500 mb-4">
+            Fantasy has arrived to Action Sports. Come check out FLYP Fantasy
+            now and get involved with the action.
+          </p>
+          <a
+            href="https://flypgame.com/app/games"
+            class="block bg-[#001122] hover:opacity-90 text-white font-semibold py-2 px-4 rounded-md text-center transition duration-200 w-fit shadow-md"
+            target="_blank"
+          >
+            Join FLYP
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="flex flex-col lg:w-1/4 space-y-5 self-start self-stretch">
-      <h2 class="text-4xl font-bold text-[#001122]">Rankings</h2>
-      <div
-        class="w-full bg-cover bg-center h-72 rounded-xl"
-        :style="{ backgroundImage: `url('${snowboardingImage}')` }"
-      ></div>
-      <p class="text-sm text-muted">
-        If you require rankings, statistics, or athlete profiles, get in touch
-        with us. We'll provide what you need.
-      </p>
-      <a
-        href="mailto:athlete@wyldata.com"
-        class="p-8 bg-[#1EBD70] hover:opacity-90 text-white font-semibold py-2 rounded-md transition duration-200 w-fit shadow-md"
-      >
-        View Rankings
-      </a>
+    <div class="flex flex-col lg:w-1/4 space-y-4 self-start self-stretch">
+      <h2 class="text-2xl font-bold text-[#001122]">Rankings</h2>
+      <div class="w-full bg-white shadow-md rounded-xl overflow-hidden">
+        <div
+          class="w-full bg-cover bg-center h-48"
+          :style="{ backgroundImage: `url('${snowboardingImage}')` }"
+        ></div>
+
+        <div class="p-4">
+          <p class="text-sm text-neutral-500 mb-4">
+            If you require rankings, statistics, or athlete profiles, get in
+            touch with us. We'll provide what you need.
+          </p>
+          <a
+            href="mailto:athlete@wyldata.com"
+            class="block bg-[#001122] hover:opacity-90 text-white font-semibold py-2 px-4 rounded-md text-center transition duration-200 w-fit shadow-md"
+          >
+            View Rankings
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="flex flex-col lg:w-1/4 space-y-5 self-start self-stretch">
-      <h2 class="text-4xl font-bold text-[#001122] text-center">
-        Missing Results
-      </h2>
-      <div
-        class="w-full bg-cover bg-center h-72 rounded-xl"
-        :style="{ backgroundImage: `url('${surfingImageTwo}')` }"
-      ></div>
-      <p class="text-sm text-muted">
-        Don't see the results you're looking for? We'll assist you with getting
-        the latest updates and results.
-      </p>
-      <a
-        href="mailto:lorenz@wyldata.com"
-        class="p-8 bg-[#1EBD70] hover:opacity-90 text-white font-semibold py-2 rounded-md transition duration-200 w-fit shadow-md"
-      >
-        Report Results
-      </a>
+    <div class="flex flex-col lg:w-1/4 space-y-4 self-start self-stretch">
+      <h2 class="text-2xl font-bold text-[#001122]">Missing Results</h2>
+      <div class="w-full bg-white shadow-md rounded-xl overflow-hidden">
+        <div
+          class="w-full bg-cover bg-center h-48"
+          :style="{ backgroundImage: `url('${surfingImage}')` }"
+        ></div>
+
+        <div class="p-4">
+          <p class="text-sm text-neutral-500 mb-4">
+            Don't see the results you're looking for? We'll assist you with
+            getting the latest updates and results.
+          </p>
+          <a
+            href="mailto:lorenz@wyldata.com"
+            class="block bg-[#001122] hover:opacity-90 text-white font-semibold py-2 px-4 rounded-md text-center transition duration-200 w-fit shadow-md"
+          >
+            Report Results
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
