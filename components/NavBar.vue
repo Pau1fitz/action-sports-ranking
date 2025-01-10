@@ -28,7 +28,7 @@ watch(
       <!-- nav for bigger screens -->
       <nav class="hidden lg:flex gap-6">
         <NavLink to="/" label="Rankings" :currentPath="route.path" />
-        <NavLink to="events" label="Events" :currentPath="route.path" />
+        <NavLink to="/events" label="Events" :currentPath="route.path" />
         <NavLink to="/contact" label="Contact" :currentPath="route.path" />
         <NavLink
           to="/marketing"
