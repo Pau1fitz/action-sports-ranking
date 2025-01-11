@@ -95,6 +95,7 @@ import surfingImageTwo from "../assets/surfing-4.jpg";
             If you require rankings, let us know. We'll provide what you need.
           </p>
           <a
+            style="margin-top: 36px"
             href="mailto:athlete@wyldata.com"
             class="block bg-[#001122] hover:opacity-90 text-white font-semibold py-2 px-4 rounded-md text-center transition duration-200 w-fit shadow-md"
           >
