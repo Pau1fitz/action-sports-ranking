@@ -15,10 +15,12 @@ import surfingImageTwo from "../assets/surfing-4.jpg";
         Get All The Information You Need
       </h1>
       <p class="text-sm text-neutral-500">
-        Whether you're looking for athlete information, missing results, or
-        detailed rankings for your organisation, we are here to help. Choose the
-        relevant section below to find the right contact or resource for your
-        inquiry.
+        At Action Sports Insider (ASI) we are all about providing you with
+        unbiased, relevant Action Sports news, stats, results and rankings
+        powered by Wyldata. Your one place to stay up to date on the competitive
+        side of things! If you are in need of data yourself like athlete bios,
+        rankings and stats - choose the relevant section below to find the right
+        contact.
       </p>
     </div>
     <div class="lg:w-1/2 w-full">
@@ -34,7 +36,7 @@ import surfingImageTwo from "../assets/surfing-4.jpg";
     class="flex flex-col lg:flex-row items-start justify-between py-10 px-5 lg:px-20 gap-10 max-w-7xl mx-auto"
   >
     <div class="flex flex-col lg:w-1/4 space-y-4 self-start self-stretch">
-      <h2 class="text-2xl font-bold text-[#001122]">Find Athlete Info</h2>
+      <h2 class="text-2xl font-bold text-[#001122]">Athlete Info</h2>
       <div class="w-full bg-white shadow-md rounded-xl overflow-hidden">
         <div
           class="w-full bg-cover bg-center h-48"
@@ -81,7 +83,7 @@ import surfingImageTwo from "../assets/surfing-4.jpg";
     </div>
 
     <div class="flex flex-col lg:w-1/4 space-y-4 self-start self-stretch">
-      <h2 class="text-2xl font-bold text-[#001122]">Rankings</h2>
+      <h2 class="text-2xl font-bold text-[#001122]">Need Rankings?</h2>
       <div class="w-full bg-white shadow-md rounded-xl overflow-hidden">
         <div
           class="w-full bg-cover bg-center h-48"
@@ -90,14 +92,13 @@ import surfingImageTwo from "../assets/surfing-4.jpg";
 
         <div class="p-4">
           <p class="text-sm text-neutral-500 mb-4">
-            If you require rankings, statistics, or athlete profiles, get in
-            touch with us. We'll provide what you need.
+            If you require rankings, let us know. We'll provide what you need.
           </p>
           <a
             href="mailto:athlete@wyldata.com"
             class="block bg-[#001122] hover:opacity-90 text-white font-semibold py-2 px-4 rounded-md text-center transition duration-200 w-fit shadow-md"
           >
-            View Rankings
+            Get Rankings
           </a>
         </div>
       </div>
