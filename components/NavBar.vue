@@ -30,11 +30,7 @@ watch(
         <NavLink to="/" label="Rankings" :currentPath="route.path" />
         <NavLink to="/events" label="Events" :currentPath="route.path" />
         <NavLink to="/contact" label="Contact" :currentPath="route.path" />
-        <NavLink
-          to="/marketing"
-          label="Vision Meets Action"
-          :currentPath="route.path"
-        />
+        <NavLink to="/marketing" label="About" :currentPath="route.path" />
       </nav>
     </div>
 
@@ -104,11 +100,7 @@ watch(
       <nav class="flex flex-col mt-8 space-y-4">
         <NavLink to="/" label="Rankings" :currentPath="route.path" />
         <NavLink to="events" label="Events" :currentPath="route.path" />
-        <NavLink
-          to="marketing"
-          label="Vision Meets Action"
-          :currentPath="route.path"
-        />
+        <NavLink to="marketing" label="About" :currentPath="route.path" />
         <NavLink to="/contact" label="Contact" :currentPath="route.path" />
       </nav>
     </aside>
