@@ -119,6 +119,8 @@ import surfingImageTwo from "../assets/surfing-4.jpg";
             getting the latest updates and results.
           </p>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="mailto:lorenz@wyldata.com"
             class="block bg-[#001122] hover:opacity-90 text-white font-semibold py-2 px-4 rounded-md text-center transition duration-200 w-fit shadow-md"
           >
